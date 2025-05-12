@@ -47,6 +47,6 @@ if submit:
         'Career Goal': career_goal
     }])
 
-    # Make prediction
+    # Make a prediction
     recommended_stream = model.predict(df)[0]
     st.success(f"Recommended Stream: **{recommended_stream}**")
